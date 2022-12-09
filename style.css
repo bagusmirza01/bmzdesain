@@ -1,0 +1,78 @@
+.banner{
+    background: url("https://storage.googleapis.com/cdn-1.pintaria.com/pintaria/products/June2020/Thumbnail-Desain-Grafis-untuk-Pemula-Dasar-Photoshop-200603095007.jpg")no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+.btn-floating{
+    position: fixed;
+    right:  50px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0;
+    z-index: 9999;
+    color: white;
+    transition: .2s;
+}
+.btn-floating:hover{
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.btn-floating span{
+    font-size: 16px;
+    margin-left: 5px;
+    transition: .2s;
+    line-height: 0px;
+    display: none;
+}
+.btn-floating:hover span{
+    display: inline-block;
+}
+.btn-floating:hover img{
+    margin-bottom: -3px;
+}
+.btn-floating.whatsapp{
+    bottom: 25px;
+    background-color: #34af23;
+    border: 2px solid #fff;
+}
+.btn-floating.whatsapp:hover{
+    background-color: #1f7a12;
+}
+.btn-floating.facebook{
+    bottom: 85px;
+    background-color: #0a6f9b;
+    border: 2px solid #fff;
+}
+.btn-floating.facebook:hover{
+    background-color: #0a6f9b;
+}
+.btn-hub{
+    background-color: #0a6f9b;
+    text-emphasis-color: white;
+    right: -200px;
+}
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #189AB4;
+}
+.lingkaran i {
+    position: relative;
+    top: 40px;
+}
+.crop-img {
+    object-fit: cover;
+}
+.tim img{
+    width: 250px;
+    border: 8px solid #0a6f9b;
+}
